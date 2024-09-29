@@ -102,6 +102,69 @@ Key features of the tracker:
 - Handling of high-cost matches across consecutive frames
 - Integration with Omni3D’s 3D detection pipeline
 
+
+# Chat with Phi-3 Vision
+
+This folder is part of the **Monocular 3D Object Detection and Tracking** project and contains a Streamlit-based application that allows users to interact with a vision model, specifically Phi-3 Vision, to analyze images and return detailed descriptions of their contents.
+
+## Overview
+
+The application is designed to:
+- Receive images from a server via a socket connection.
+- Allow users to enter specific requests regarding the description of the images.
+- Leverage the Phi-3 Vision model to generate accurate and detailed image descriptions.
+
+Key features:
+- **Real-time communication** with a server for image acquisition.
+- **Text-based interaction** for requesting specific details about an image.
+- **Automatic handling of inputs**, where image frames are fetched automatically upon submission of a user query.
+- **Customizable chat interface**, which automatically resets after each response.
+- **Responsive interface** that adapts to the user's input with minimal interaction, ensuring a smooth user experience.
+
+## Installation
+
+To set up and run the application, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/ramonatarantino/mocular-3d-object-detection-tracking.git
+   cd mocular-3d-object-detection-tracking/chat-with-phi-3-vision
+   ```
+
+2. **Install dependencies:**
+   Ensure you have Python installed, then run:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the application:**
+   Launch the Streamlit app by running the following command:
+   ```bash
+   streamlit run app.py
+   ```
+
+4. **Start the server:**
+   Make sure the server providing the image stream is running and accessible.
+
+## Usage
+
+1. After launching the app, you'll see a chat interface where you can submit queries about the images being streamed.
+2. The Phi-3 Vision model will analyze the current frame and provide a detailed response based on the query.
+3. You can refine your requests in natural language, and the app will process the input and update with a new description.
+
+## Customization
+
+### Input Behavior
+- The input bar is fixed to the bottom of the interface for easy access. It automatically fetches a new frame when you hit "Enter" after typing your query.
+
+### Image Processing
+- Images are processed in real-time as they are received from the server. There is no need to manually click any buttons—everything happens seamlessly after a user submits their request.
+
+### Hidden Features
+- Advanced settings are embedded in the code but not visible on the user interface, keeping the layout clean and user-friendly.
+
+
+
 ## Citing Omni3D <a name="citing"></a>
 
 Please cite the original Omni3D paper if you use this project in your research:
@@ -201,3 +264,13 @@ If you use the Omni3D benchmark, we kindly ask you to additionally cite all data
 
 </details>
 
+
+## License
+
+This project is licensed under the MIT License.  
+The server code is based on the work from the following repository:  
+[https://github.com/bhimrazy/chat-with-phi-3-vision](https://github.com/bhimrazy/chat-with-phi-3-vision)
+
+## Contributing
+
+I welcome contributions! If you'd like to add features, improve the documentation, or report a bug, feel free to open an issue or submit a pull request.

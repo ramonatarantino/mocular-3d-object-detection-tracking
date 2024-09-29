@@ -181,7 +181,7 @@ Please cite the original Omni3D paper if you use this project in your research:
 }
 ```
 
-## License <a name="license"></a>
+## License (Cube R-CNN) <a name="license"></a>
 Cube R-CNN is released under [CC-BY-NC 4.0](LICENSE.md).
 
 
@@ -265,7 +265,7 @@ If you use the Omni3D benchmark, we kindly ask you to additionally cite all data
 </details>
 
 
-## License
+## License (Chat with Phi 3 Vision)
 
 This project is licensed under the MIT License.  
 The server code is based on the work from the following repository:  

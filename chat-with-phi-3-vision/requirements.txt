@@ -1,0 +1,11 @@
+accelerate
+bitsandbytes
+decord
+litserve
+openai
+Pillow
+streamlit
+torch
+torchvision
+transformers
+flash_attn

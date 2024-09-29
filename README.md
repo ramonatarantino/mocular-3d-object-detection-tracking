@@ -14,9 +14,11 @@ This repository extends the Omni3D model by integrating a custom object tracking
 4. [Training](#training)
 5. [Inference](#inference)
 6. [Tracker Implementation](#tracker)
-7. [Citing Omni3D](#citing)
-8. [License](#license)
-9. [Contributing](#contributing)
+7. [Chat with Phi 3 Vision](#chatwithphi3vision)
+8. [Citing Omni3D](#citing)
+9. [License](#license)
+10. [Contributing](#contributing)
+
 
 ## Overview <a name="overview"></a>
 
@@ -119,7 +121,7 @@ Please cite the original Omni3D paper:
 
 ---
 
-# Chat with Phi-3 Vision
+# Chat with Phi-3 Vision <a name="chatwithphi3vision"></a>
 
 This folder is part of the **Monocular 3D Object Detection and Tracking** project and contains a Streamlit-based application that allows users to interact with a vision model, specifically Phi-3 Vision, to analyze images and return detailed descriptions.
 

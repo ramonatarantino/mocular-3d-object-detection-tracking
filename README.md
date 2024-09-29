@@ -1,4 +1,3 @@
-Ecco il file riorganizzato:
 
 ---
 
@@ -170,5 +169,3 @@ The server code is based on the work from [this repository](https://github.com/b
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ---
-
-Ho organizzato il file seguendo uno schema più ordinato e coerente. Fammi sapere se ti serve altro!

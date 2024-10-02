@@ -124,6 +124,8 @@ Please cite the original Omni3D paper:
 
 # Chat with Phi-3 Vision <a name="chatwithphi3vision"></a>
 
+https://github.com/user-attachments/assets/90597d52-303b-4b3e-bc8f-8549d236282b
+
 This folder is part of the **Monocular 3D Object Detection and Tracking** project and contains a Streamlit-based application that allows users to interact with a vision model, specifically Phi-3 Vision, to analyze images and return detailed descriptions.
 
 ## Overview

@@ -103,6 +103,9 @@ This project adds an object tracker to the original Omni3D model. The tracker ma
 Key features:
 - Custom matching logic for continuous tracking across frames
 - High-cost match handling for challenging detections
+  
+![Progetto senza titolo (1) (1)](https://github.com/user-attachments/assets/44635208-52d4-4780-ab61-9b2a3705ce11)
+![Screenshot from 2024-07-23 16-27-00 (1)](https://github.com/user-attachments/assets/859a057a-56e8-41e3-ab53-13231e94e3cf)
 
 ## Citing Omni3D <a name="citing"></a>
 
@@ -124,7 +127,8 @@ Please cite the original Omni3D paper:
 
 # Chat with Phi-3 Vision <a name="chatwithphi3vision"></a>
 
-https://github.com/user-attachments/assets/90597d52-303b-4b3e-bc8f-8549d236282b
+![CHAT4](https://github.com/user-attachments/assets/68f3b64e-a070-49e6-b813-582354134085)
+
 
 This folder is part of the **Monocular 3D Object Detection and Tracking** project and contains a Streamlit-based application that allows users to interact with a vision model, specifically Phi-3 Vision, to analyze images and return detailed descriptions.
 

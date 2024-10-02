@@ -95,8 +95,10 @@ python tools/train_net.py \
 
 This project adds an object tracker to the original Omni3D model. The tracker matches detected objects across frames using a custom algorithm based on:
 - 3D bounding box information
+- GIoU and Iou 3D computation
 - Object centers
 - Category types
+- Chamfer Distance 
 
 Key features:
 - Custom matching logic for continuous tracking across frames
